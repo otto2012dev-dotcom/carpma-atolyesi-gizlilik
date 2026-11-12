@@ -58,12 +58,20 @@
 
         a { color: #667eea; }
 
-        .lang { float: right; font-size: 14px; font-weight: 600; margin-left: 12px; }
+        .langs { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 14px; font-size: 14px; font-weight: 600; margin-bottom: 12px; }
     </style>
 </head>
 <body>
     <div class="card">
-        <a class="lang" href="https://otto2012dev-dotcom.github.io/carpma-atolyesi-gizlilik/en/" hreflang="en" lang="en">English</a>
+        <nav class="langs" aria-label="Diğer diller">
+            <a href="https://otto2012dev-dotcom.github.io/carpma-atolyesi-gizlilik/en/" hreflang="en" lang="en">English</a>
+            <a href="https://otto2012dev-dotcom.github.io/carpma-atolyesi-gizlilik/de/" hreflang="de" lang="de">Deutsch</a>
+            <a href="https://otto2012dev-dotcom.github.io/carpma-atolyesi-gizlilik/es/" hreflang="es" lang="es">Español</a>
+            <a href="https://otto2012dev-dotcom.github.io/carpma-atolyesi-gizlilik/fr/" hreflang="fr" lang="fr">Français</a>
+            <a href="https://otto2012dev-dotcom.github.io/carpma-atolyesi-gizlilik/it/" hreflang="it" lang="it">Italiano</a>
+            <a href="https://otto2012dev-dotcom.github.io/carpma-atolyesi-gizlilik/pt/" hreflang="pt" lang="pt">Português</a>
+            <a href="https://otto2012dev-dotcom.github.io/carpma-atolyesi-gizlilik/ru/" hreflang="ru" lang="ru">Русский</a>
+        </nav>
         <h1>Gizlilik Politikası</h1>
         <p class="subtitle">Çarpma Atölyesi &mdash; Yürürlük tarihi: 1 Eylül 2026 &middot; Son güncelleme: 24 Eylül 2026</p>
 
@@ -90,7 +98,7 @@
             Oyun yalnızca şu bilgileri <strong>cihazınızın kendi hafızasında</strong> saklar:
         </p>
         <ul>
-            <li>Müzik, ses efekti ve dil tercihleri (açık/kapalı, Türkçe/English)</li>
+            <li>Müzik, ses efekti ve dil tercihleri (açık/kapalı, seçilen dil)</li>
             <li>Oyun içi en iyi skorlar, kazanılan madalyalar ve balonlar</li>
             <li>Günlük görev ilerlemesi ve gün serisi</li>
             <li>Hangi çarpım sayılarında kaç soru sorulduğu ve kaçının doğru cevaplandığı
